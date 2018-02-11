@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	cards := []string{newCard(), newCard()}
+	cards := deck{newCard(), newCard()}
 	cards = append(cards, "Six of spades")
 
 	for i, card := range cards {
