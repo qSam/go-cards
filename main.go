@@ -1,9 +1,7 @@
 package main
 
 func main() {
-	cards := deck{newCard(), newCard()}
-	cards = append(cards, "Six of spades")
-
+	cards := newDeck()
 	cards.print()
 }
 
